@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+    <title>Durchführung</title>
+</head>
+
+<body>
+    <div class="page">
+        <section class="glass">
+            <div class="sidebar">
+                <div class="rublogo1">
+                    <div class="container1">
+                        <div class="card1">
+                            <div class="circle1">
+                                <div class="logorub1">
+                                    <img src="./output-onlinepngtools.png" alt="logo1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="links">
+                    <ul class="nav-links">
+                        <li><a href="../MMIIndex.html">
+                                <h3>Remote-Usability-Studie</h3>
+                            </a></li>
+                        <li><a href="./Einleitung.html">
+                                <h3>Einleitung</h3>
+                            </a></li>
+                        <li><a href="./Durchfuhrung.html">
+                                <h3 style="color:rgb(227, 234, 240);">Testdurchführung</h3>
+                            </a>
+                            <ul class="subnav-links">
+                                <li><a href="#methode">
+                                        <pre style="color:rgb(227, 234, 240);">   Methode</pre>
+                                    </a></li>
+                                <li><a href="#durchfuhrung">
+                                        <pre style="color:rgb(227, 234, 240);">   Durchführung</pre>
+                                    </a></li>
+                                <li><a href="#nutzer">
+                                        <pre style="color:rgb(227, 234, 240);">   Nutzer</pre>
+                                    </a></li>
+                                <li><a href="#datenerhebung">
+                                        <pre style="color:rgb(227, 234, 240);">   Datenerhebung</pre>
+                                    </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./Auswertung.html">
+                                <h3>Auswertung</h3>
+                            </a></li>
+                        <li><a href="./Verbesserung.html">
+                                <h3>Verbesserungsvorschläge</h3>
+                            </a></li>
+                        <li><a href="./Fazit.html">
+                                <h3>Fazit</h3>
+                            </a></li>
+                    </ul>
+
+                </div>
+                <div class="rublogo">
+                    <div class="container">
+                        <div class="card">
+                            <div class="circle">
+                                <div class="logorub">
+                                    <img src="./Rublogo.png" alt="logo">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="header">
+                    <h1>Remote-Usability-Studie für BigBlueButton</h1>
+                    <h6>Durchführung der RUS</h6>
+                </div>
+                <div class="texts">
+                    <div class="mainp1">
+                        <br>
+                        <h2 id="methode"> Heuristische Analyse</h2>
+                        <br>
+                        <p> Um User Experience und User Interface eines Produktes objektiv bewerten zu können, werden die
+                            10 Heuristiken (Heuristische Evaluationsmethode) nach Nielsen herangezogen.
+                        <br>
+                        <img src="./heuristik1.png" alt="Heuristik" style="width:99%;">
+                        <br>
+                        <br>
+                        <br>
+                        <table>
+                            <thead>
+                                <th>
+                                    <h4>Nr.</h4>
+                                </th>
+                                <th>
+                                    <h4>Heuristik</h4>
+                                </th>
+                                <th>
+                                    <h4>Erläuterung</h4>
+                                </th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <P>1</P>
+                                    </td>
+                                    <td>
+                                        <h5>Sichtbarkeit des Systemstatus</h5>
+                                        <br>
+                                        <p>Das System informiert den Nutzer immer darüber, was gerade passiert – rechtzeitig und durch angemessenes Feedback.</p>
+                                    </td>
+                                    <td>
+                                        <p>Der User kann die Benachrichtigung aktivieren oder deaktivieren. Das System
+                                            zeigt (nur bei eigenständiger Aktivierung) Pop-Up-Nachrichten und ein Audio
+                                            Warnton, wenn neue Teilnehmer den Raum betreten sowie Pop-Up- oder Audio
+                                            Warnungen für den Chat.</p>
+                                        <br>
+                                        <p>Erhält ein User eine Berechtigung für die Präsentation oder verlässt er den Raum, so wird ein Warnton abgespielt.</p>
+                                        <br>
+                                        <p>Sobald die Konferenzzeit sich dem Ende zuneigt, wird ein Countdown in Minuten angezeigt.</p>
+                                        <br>
+                                        <p>Beim Sprechen wird das Mikrofon-Button der User mit Wellen animiert.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <P>2</P>
+                                    </td>
+                                    <td>
+                                        <h5>Übereinstimmung von System und Wirklichkeit</h5>
+                                        <br>
+                                        <p>Das System spricht die Sprache des Nutzers – mit ihm vertrauten Wörtern, Phrasen und Konzepten. 
+                                            Entlehnt aus der echten Welt erscheinen Informationen in ihrer natürlichen und logischen Ordnung.</p>
+                                    </td>
+                                    <td>
+                                        <p>Wenn ein User stummgeschaltet wird, folgt eine auditive Benachrichtigung “You
+                                            are muted”. Diese Funktion unterbricht den Nutzer beim Zuhören.</p>
+                                        <br>
+                                        <p>Der User kann die Sprache ändern, jedoch sind die Erklärungen/Tutorials nur
+                                            auf Englisch verfügbar.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <P>3</P>
+                                    </td>
+                                    <td>
+                                        <h5>Benutzerkontrolle und Freiheit</h5>
+                                        <br>
+                                        <p>Nutzer führen Aktionen oft unbeabsichtigt durch. Auswege wie „Rückgängig”, 
+                                            „Wiederholen” und „ESC” sind deshalb immer möglich und sichtbar.</p>
+                                    </td>
+                                    <td>
+                                        <p>Bei Auswahl der Option “Zuhören” ist eine Änderung nicht mehr möglich. Der
+                                            User muss den Chatraum verlassen und wieder ein Echotest ausführen. </p>
+                                        <br>
+                                        <p>Der User kann nur einzelne Aktionen rückgängig machen. </p>
+                                        <br>
+                                        <p>Das Radieren ist nicht möglich.</p>
+                                        <br>
+                                        <p>Der Präsentator kann nur eine Datei auf dem Whiteboard importieren. Wird eine
+                                            andere Datei hochgeladen, so wird die Alte ersetzt.</p>
+                                        <br>
+                                        <p>Es gibt keine Speicherfunktion für das Whiteboard. </p>
+                                        <br>
+                                        <p>Alle Objekte (z.B. Formen, Text, Markierungen etc.) können nachträglich nicht
+                                            verändert werden. </p>
+                                        <br>
+                                        <p>Die Qualität von einem Screen Sharing kann der User nicht anpassen.</p>
+                                        <br>
+                                        <p>Wenn der User die Sitzung neu betritt, verliert er seine Rechte.</p>
+                                        <br>
+                                        <p>Wenn der User mit der linken Maustaste auf einen Link im Chat klickt, fliegt
+                                            er aus BBB raus und landet auf der entsprechenden Webseite. </p>
+                                        <br>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <P>4</P>
+                                    </td>
+                                    <td>
+                                        <h5>Konsistenz und Standards</h5>
+                                        <br>
+                                        <p>Nutzer müssen nicht überlegen, ob unterschiedliche Wörter, Situationen und Aktionen das Gleiche meinen. 
+                                            Die Konventionen des Betriebssystems werden eingehalten.</p>
+                                    </td>
+                                    <td>
+                                        <p>Der User muss ein Echotest ausführen, um die Funktionalität von seinem Mikro und
+                                            seibnen Kopfhörern zu testen.</p>
+                                        <br>
+                                        <p>Der User hat mehrere Möglichkeiten sich stummzuschalten.</p>
+                                        <br>
+                                        <p>Die Funktion “geteilte Notizen” ist leicht mit “öffentlichen Chat” zu
+                                            verwechseln.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <P>5</P>
+                                    </td>
+                                    <td>
+                                        <h5>Error Handling (*Fehlervermeidung)</h5>
+                                        <br>
+                                        <p>Das System vermeidet fehleranfällige Situationen oder warnt den Nutzer und
+                                            lässt ihn die Aktion bestätigen.</p>
+                                        <br>
+                                    </td>
+                                    <td>
+                                        <p>Es werden generell Fehlermeldungen angezeigt, 
+                                            wenn die Webcam zum Beispiel nicht funktioniert, 
+                                            die Internetverbindung instabil ist oder wenn der Bildschirm nicht freigegeben werden kann.</p>
+                                        <br>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <P>6</P>
+                                    </td>
+                                    <td>
+                                        <h5>Erkennen statt Erinnern</h5>
+                                        <br>
+                                        <p>Durch sichtbare Objekte, Aktionen und Optionen muss der Nutzer weniger im
+                                            Gedächtnis behalten. Anleitungen zum Gebrauch des Systems sind sichtbar oder
+                                            leicht zu erreichen. </p>
+                                    </td>
+                                    <td>
+                                        <p>Das System ist schlicht gestaltet, grundlegende Funktionen sind gut sichtbar
+                                            und einfach einzuprägen. Einzelne Funktionen sind jedoch versteckt.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <P>7</P>
+                                    </td>
+                                    <td>
+                                        <h5>Flexibilität und Effizienz der Nutzung</h5>
+                                        <br>
+                                        <p>Kurzbefehle und andere Abkürzungen sind unsichtbar für Unerfahrene und
+                                            beschleunigen bei fortgeschrittenen Nutzern die Bedienung. Zusätzlich sind
+                                            häufige Aktionen individuell anpassbar.</p>
+                                        <br>
+                                    </td>
+                                    <td>
+                                        <p>Der User kann Shortcuts benutzen. Dazu gibt es eine kurze Anleitung in
+                                            tabellarischer Form unter "Einstellungen".</p>
+                                        <br>
+                                        <p>Eine schwache WLAN-Verbindung kann  Audiostörungen, eingefrorene
+                                            Browser oder auch vereinzelte Verbindungsabbrüche verursachen, sodass eine Neueinwahl
+                                            erforderlich ist. Aktuell ist BigBlueButton nicht mit allen  Browsern kompatibel.
+                                        </p>
+                                        <br>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <P>8</P>
+                                    </td>
+                                    <td>
+                                        <h5>Ästhetisches und minimalistisches Design</h5>
+                                        <p>Dialogfenster enthalten keine überflüssigen oder nur selten gebrauchten
+                                            Informationen. Denn jede zusätzliche Information steht in Konkurrenz mit den relevanten Informationen und mindert deren Sichtbarkeit.</p>
+                                        <br>
+                                    </td>
+                                    <td>
+                                        <p>Pop-Ups verdecken nur einen minimalen Bereich der Präsentation.</p>
+                                        <br>
+                                        <p>Es gibt verschiedene Reiter für die Übersichtlichkeit.</p>
+                                        <br>
+                                        <p>Es existiert eine übersichtliche Unterteilung von Funktionen (Nachricht,
+                                            Öffentlicher Chat, Startraum).</p>
+                                        <br>
+                                        <p>Es entstehen Probleme bei der Skalierung. Bestimmte Funktionen sind bei einer
+                                            Minimierung vom Fenster nicht mehr sichtbar.</p>
+                                        <br>
+                                        <p>Bestimmte Funktionen sind beim Eintreten gar nicht verfügbar. (z.B. geteilte
+                                            Notizen oder öffentlicher Chat).</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <P>9</P>
+                                    </td>
+                                    <td>
+                                        <h5>Hilfestellung beim Erkennen, Bewerten und Beheben von Fehlern</h5>
+                                        <br>
+                                        <p>Fehlermeldungen sollten in klarer Sprache (kein Code) formuliert sein, 
+                                            das Problem exakt beschreiben und eine konstruktive Lösung vorschlagen.</p>
+                                        <br>
+                                    </td>
+                                    <td>
+                                        <p>Um das Mikrofon auf seine Funktionalität zu überprüfen, wird ein Echotest
+                                            durchgeführt. Der Nutzer hat die Möglichkeit, die Konferenz mit einem
+                                            Mikrofon beizutreten oder der Konferenz nur zuzuhören. Die Auswahl der
+                                            Funktion ist aber nicht mehr widerrufbar. Der User muss die Konferenz
+                                            verlassen, um die Auswahl zu ändern. Bei Fehlermeldungen werden dem User Möglichkeit
+                                            empfohlen, die Probleme zu behebn (z.B. den Browser wechseln).
+                                        </p>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>
+                                        <h5>Hilfe und Dokumentation</h5>
+                                        <br>
+                                        <p>Die Dokumentation enthält konkrete Schritte zur Ausführung und beschränkt
+                                            sich auf das Wesentliche.</p>
+                                        <br>
+                                    </td>
+                                    <td>
+                                        <p>Anfangs wird das Mikrofon überprüft. Bei Fehlern wird dem User die Möglichkeit angeboten, Einstellung vorzunhemen.</p>
+                                        <br>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+
+
+                        <br>
+                        <h2 id="durchfuhrung">Durchführung</h2>
+                        <br>
+                        <p> Thema: Usability Test <br>
+                            Dauer: ca. 30-40 Min <br>
+                            benötigte Ressourcen: PC (Kamera, Mikrofon), stabile Internetverbindung, Zoom,
+                            Email-Adresse<br>
+                            Hilfsmittel: Shortcuts</p><br>
+
+                        <p>
+                            Hallo lieber Proband, liebe Probandin! Sie werden im Folgenden die notwendigen
+                            Informationen bekommen, um einen Usability-Test durchzuführen. Es geht darum, ein
+                            Open-Source-Webkonferenz-System namens “Big Blue Button” auszuwerten. Es
+                            wird geprüft, an welchen Stellen Schwierigkeiten bei der Benutzung auftreten.
+                            Besonders wichtig ist es zu wissen, dass das System getestet wird und nicht der/die
+                            Benutzer*in selbst. Ziel des Tests ist es, möglichst viele Probleme zu finden. Es ist
+                            erwünscht, dass sie während des Tests Fragen stellen und laut denken, da es
+                            wichtig ist zu wissen, wo es Unklarheiten gibt. Der/die Testleiter*in kann antworten,
+                            wenn Sie selbst mit dem Programm bzw. den Aufgaben nicht klarkommen.
+                            Sie bekommen am Anfang allgemeine Fragen zu Ihrer Person gestellt. Des Weiteren
+                            wird der/die Testleiter*in nach Ihrer Einverständniserklärung für die Aufnahme
+                            Ihrer Stimme und Ihres Bildschirms fragen. Die aufgenommen Daten werden
+                            ausschließlich für die Analyse im Rahmen der Lehrveranstaltung „Mensch-Maschine
+                            Interaktion“ genutzt.
+                            <br><br>
+                            Der Usability-Test besteht aus einigen Aufgaben, für die eine Bearbeitungszeit von
+                            20 Minuten vorgesehen ist und einem kurzen Interview (ca. 10 Minuten). In diesem sollen
+                            Sie sich dazu äußern, welche Aspekte Ihnen gut und welche Ihnen weniger gut
+                            gefallen haben, wo Sie Probleme hatten und wo Sie Ansätze für Verbesserungen
+                            sehen. Es gibt keine richtigen oder falschen Antworten – nur Ihre persönliche Meinung
+                            zählt!
+                            Um uns die Arbeit zu erleichtern, werden wir die Testsitzung als Video aufnehmen.
+                            Die Aufzeichnung wird nur den Testleitern und unserem Auftraggeber zugänglich
+                            gemacht, um die Testergebnisse zu belegen. Die Aufzeichnung wird nicht
+                            veröffentlicht.
+                            Bitte lesen Sie die folgende Erklärung und unterschreiben Sie diese.
+                            Viel Spaß bei dem BigBlueButton Usability-Test! :)
+                        </p>
+                        <br>
+                        <h2>Testablauf</h2>
+                        <br>
+                        <p>
+                            1. Klicke auf den Einladungslink um einem Meeting beizutreten.
+                        </p>
+                        <br>
+                        <p>
+                            2. Wähle  <i>"Mikrofon beitreten"</i> und überprüfen sie anschließend bei dem Echotest, ob
+                            ihr
+                            Mikrofon funktioniert.
+                            <br>
+                            Hören Sie sich selbst, drücken sie den <i>"Daumen-hoch"</i>  Button, andernfalls drücken sie
+                            auf
+                            "Daumen-runter" und wählen <br> sie ein funktionsfähiges Mikrofon aus.
+                        </p>
+                        <br>
+                        <pre>    1. Falls Ihr Mikrofon funktioniert, dann sagen Sie <i>"Audio ist an"</i> .</pre>
+                        <pre>    2. Falls Ihr Mikrofon nicht funktioniert, dann schreiben Sie im Öffentlichen Chat <i>"Audio ist aus"</i>.</pre>
+                        <br>
+                        <p>
+                            3. Setzen Sie nun Ihren Status auf <i>“Glücklich ”</i>. Als nächstes setzen Sie Ihren
+                            Status zurück.
+                        </p>
+                        <br>
+                        <p>
+
+                            4. Schalten Sie Ihr Mikrofon stumm und schalten Sie Ihre Webcam an.
+                        </p>
+                        <br>
+                        <p>
+                            5. Nutzen Sie die geteilten Notizen und erstellen Sie eine nummerierte Liste wie
+                            folgt:</p>
+                        <br>
+                        <pre>       Apfel</pre>
+                        <pre>       Birne</pre>
+                        <pre>       Orange</pre>
+                        <pre>       Mango</pre>
+                        <br>
+                        <p>Dabei soll Apfel fett, Birne unterstrichen, Orange kursiv, Mango durchgestrichen sein.
+                           Exportieren Sie die Liste als PDF-Datei</p>
+
+                        </p>
+                        <br>
+                        <p>
+                            6. Schreiben Sie in dem öffentlichen Chat: <i>“Hallo ich wechsle jetzt zur
+                                Präsentator Rolle”</i>.
+                        </p>
+                        <br>
+                        <p>
+                            7. Klicken Sie unten links auf dem Plus Button, um ein Präsentator zu werden.
+                            Anschließend teilen Sie ein externes Video mit <br> dem URL-Link:
+                            <a href="https://www.youtube.com/watch?v=yMBc1GY11kM " target="_blank">Youtube Link.</a>
+                            Beenden Sie danach das geteilte Video.
+                        </p>
+                        <br>
+                        <p>
+                            8. Benutzen Sie die Whiteboard-Werkzeuge: <br>
+                        </p>
+                        <br>
+                        <pre>    a. Wechseln Sie zu einer neuen Folie (weißer Hintergrund)</pre>
+                        <pre>    b. Benutzen Sie den Stift und zeichnen Sie einen Smiley</pre>
+                        <pre>    c. Erstellen Sie mit der Strichdicke 6 eine blaue Ellipse</pre>
+                        <pre>    d. Erstellen sie ein Textfeld und schreiben Sie “Textfeld”</pre>
+                        <pre>    e. Nehmen Sie die Anmerkung zurück</pre>
+                        <pre>    f. Löschen sie nun alle Anmerkungen</pre>
+                        <br>
+                        <p>
+                            9. Geben Sie Ihren Bildschirm frei und wählen Sie ein bestimmtes Fenster aus.
+
+                        </p>
+                        <br>
+                        <p>
+                            10. Klicken Sie unten links auf dem Plus Button und erstellen Sie eine Umfrage
+                            mit den vorgefertigten Antwortmöglichkeiten.
+                        </p>
+                        <br>
+                        <h2 id="nutzer">Nutzer</h2>
+                        <br>
+                        <p>
+                            Die Testpersonen sind eine wichtige Grundlage für die Usability-Tests. Die ausgewählten
+                            Testpersonen sollten die Endbenutzer repräsentieren. Bei der Auswahl der Testpersonen ist
+                            auf jeden Fall darauf zu achten, dass diese die Zielgruppe repräsentieren. Ein weiterer
+                            Faktor ist auch bei der Wahl der Testpersonen, die gewählten Methoden zu berücksichtigen.
+                            Bei der Methode „Lautes Denken“ sollte darauf geachtet werden, dass die Personen sich gut
+                            und gerne äußern und nicht zu schüchtern sind. Für den Usability-Test BBB wurde die Anzahl
+                            der Testpersonen auf acht beschränkt, da die Testleiter eher eine qualitative Auswertung
+                            anstreben, um subjektive Meinungen zu bekommen. Die Unterteilung der Teilnehmer wurde so
+                            gewählt, dass sowohl Anfänger als auch Experten abgefragt werden, um ein breites Spektrum an
+                            Ergebnissen zu erhalten. In der Terminplanung wird jeder Testperson eine Nummer zugeteilt.
+                            In der Datenerhebung werden die Testpersonen anonymisiert und nur durch diese Nummer
+                            gekennzeichnet.
+                        </p>
+                        <br>
+                        <p style="color: rgb(16, 83, 207);">
+                            Wie viele Teilnehmer haben wir?
+                        </p>
+                        <br>
+                        <p>
+                            8 Teilnehmer <br>
+                            2 Experten/Studenten (BBB schon benutzen) <br>
+                            2 jüngere Leute die BBB neu benutzen <br>
+                            2 Lehrer/Dozenten <br>
+                            2 Homeoffice Mitarbeiter (Leiter und Angestellte vom Büro/Geschäft)
+                        </p>
+                        <br>
+                        <h2 id="datenerhebung">Datenerhebung</h2>
+                        <br>
+                        <p>
+                            Das Erhebungsverfahren besteht aus einer Befragung bzw. einem Interview und einer
+                            Beobachtung bzw. eine Aufnahme des Bildschirms, somit kann auch ein visuelles Material für
+                            die Auswertung verwendet werden.
+                            Das Interview besteht grundsätzlich aus offenen Fragen, sodass keine Antwortmöglichkeiten
+                            vorgegeben sind. Es werden soziodemografische Daten erhoben (Alter, Beruf, Studienfach) sowie
+                            das Vorwissen des Probanden, z.B. Erfahrung mit ähnlichen Produkten abgefragt. Dies hilft
+                            die Zusammensetzung der befragten Personen zumindest nachträglich auswerten zu können.
+                            Der hauptsächliche Grund für die Entscheidung eines Interviewleitfaden ist, dass zum einen
+                            eine Spontanität bei der Beantwortung der Fragen herrscht, zum anderen die Reaktionen von
+                            den Probanden direkt erfasst werden können. Zudem lassen sich komplexe Thematiken durch
+                            Teilfragen herunterbrechen. Eine hohe Flexibilität bei der Gestaltung des Interviews ist
+                            auch gegeben, da die Reihenfolge nicht eingehalten werden muss.
+
+                        </p>
+                        <br>
+                        <p><strong>Pre Test</strong></p>
+                        <br>
+                        <p>
+                            Der endgültige Ablauf der Datenerfassung wurde stark von den Ergebnissen der zwei Vortests
+                            beeinflusst, der durch die Testleiter*innen in Zweiergruppen selbst durchgeführt wurde.
+                            Als Ergebnis des Vortests zeigten sich folgende Punkte:
+                            Eine Testdurchführung soll insgesamt nicht mehr als 40 Minuten überschreiten.
+                            Die Testleiter*innen sind während der Aufgabenbearbeitung für den Probanden verfügbar und
+                            falls Probleme auftreten, sind sie jederzeit ansprechbar.
+                            Aus Zeitgründen müssen die Testleiter*innen vorab Testunterlagen (Informationen zum Ablauf
+                            des Tests, Einverständniserklärung und die Aufgabenstellungen) erhalten, da ansonsten der
+                            Zeitverbrauch bis zur Aufgabenbearbeitung, bei der die Teilnehmer selbst aktiv werden
+                            können, zu groß wäre.
+                            Die Testleiter*innen sollten sich vor dem Testablauf vorbereiten, um mögliche
+                            Nutzungsprobleme zu erkennen. Außerdem stellen die Testleiter*innen sicher, dass alle
+                            Funktionen verfügbar sind. Des Weiteren wurde die Reihenfolge der Aufgaben angepasst.
+
+                        </p>
+                        <br>
+                        <p><strong>Test Setting </strong></p>
+                        <br>
+                        <p>
+                            Die Tests fanden vom 09.02 bis zum 11.02 über Zoom statt. Zu Beginn wurden Konferenzräume zur
+                            Verfügung gestellt. Die eigentliche Kommunikation mit den Probanden verlief über einen
+                            Zoom-Call. Sie bekamen ein Aufgabenblatt mit einer Einführung und eine Vorgehensweise
+                            (<a href="./Usability-Test2 (1).pdf" target="_blank">Einverständniserklärung</a> etc.). Nach
+                            dem Einverständnis der Probanden, bekamen sie den Link
+                            für den Konferenzraum und der Test wurde gestartet. Die Aufgaben wurden dann vom Probanden
+                            selbstständig bearbeitet. Bei der Bearbeitung wurde der Test vom Testleiter überwacht und
+                            aufgezeichnet. Bei Fragen sind die Testleiter*innen in das Geschehen eingegriffen
+                            ein um einen reibungslosen Ablauf zu gewährleisten. Schließlich folgte die Befragung bzw.
+                            das Interview mit dem Probanden, wo die eigentliche Benutzerfreundlichkeit abgefragt wurden.
+                        </p>
+
+                        <br>
+                        <p>
+                            <b>1. Interviewleitfaden Konzept:</b><br><br>
+                            Es soll sichergestellt werden, dass alle im Testplan benötigten Ressourcen bereitstehen
+                            (der Computer, auf dem der Test stattfinden wird und die zu testende Software). In der
+                            Einführung wird dem Benutzer der Ablauf und Sinn des Tests erläutert. Besonders wichtig ist
+                            es eindeutig zu vermitteln, dass das System getestet wird und nicht der Benutzer selbst. Es
+                            soll auch erläutert werden, dass der Test nur dann erfolgreich ist, wenn möglichst viele
+                            Probleme gefunden werden. Der Testnutzer soll auch dazu ermutigt werden, während des Tests
+                            Fragen zu stellen oder laut zu denken, da es wichtig ist zu wissen, wo es Unklarheiten gibt.
+                            Er muss informiert werden, dass der Testleiter Antworten geben kann, wenn der Benutzer
+                            selbst mit dem Programm bzw. Aufgaben nicht klar kommt. Während der Test durchgeführt
+                            wird, sollten sich die Testleiter so weit wie möglich im Hintergrund halten und ein
+                            Protokoll über problematische Stellen im System führen. Der Benutzer wird am Anfang zum
+                            System befragt. Er sollte sich dazu äußern, welche Aspekte ihm gut und welche ihm weniger
+                            gut gefallen haben, wo er Probleme hatte und wo er Ansätze für Verbesserungen sieht.
+
+                            <br><br><b>2. Begrüßung:</b><br><br>
+                            Begrüße dein Gegenüber. Teile ihm mit, wie lange das Interview gehen wird und was die
+                            Thematik des Interviews ist.
+
+
+                            <br><br><b>Wichtige Punkte:</b><br><br>
+
+                        <ul>
+                            <li>
+                                <p>Das Interview ist Teil der Lehrveranstaltung Mensch Maschine Interaktion und Teil
+                                    des Informatik Studiums.
+                                </p>
+                            </li>
+                            <li>
+                                <p> Es geht darum ein Open-Source-Webkonferenz System namens “Big Blue Button”
+                                    auszuwerten. Es wird geprüft, an welchen Stellen Schwierigkeiten bei der Benutzung
+                                    auftreten.
+                                </p>
+                            </li>
+                            <li>
+                                <p>Es gibt kein richtig oder falsch – nur die persönliche Meinung.</p>
+                            </li>
+                            <li>
+                                <p>Die aufgenommen Daten werden ausschließlich für die Analyse im Rahmen
+                                    der Lehrveranstaltung genutzt.</p>
+                            </li>
+                            <li>
+                                <p>Das Gespräch wird mit OBS aufgenommen bei
+                                    Zustimmung. (Einverständniserklärung)
+                                </p>
+                            </li>
+                            <li>
+                                <p>Die Interviewteilnehmer erhalten zuerst nur die allgemeinen Fragen. 
+                                    Nach dem diese Fragen gründlichen gelesen wurden, erhalten sie die weiteren Fragen um zu
+                                    gewährleisten, dass die unvoreingenommene Meinung erfragt
+                                    werden kann.
+
+                                </p>
+                            </li>
+                            <br>
+                            <p style="color: rgb(16, 83, 207);">Richtlinien für die Durchführung des Interview</p><br>
+                            <ul>
+                                <li>
+                                    <p> Die beste Methode für die spätere Auswertung ist eine Aufzeichnung.
+                                        Hierbei ist es möglich sich vollkommen auf das Gespräch zu konzentrieren.
+                                        Dadurch bleibt der Redefluss unbeeinträchtigt.</p>
+                                </li>
+                                <li>
+                                    <p> Der Leitfaden ist eine Stütze für das Interview. Das Ziel ist ein Gespräch, bei dem
+                                        der Interviewer gelegentlich Anstöße gibt.</p>
+                                </li>
+                                <li>
+                                    <p>Beginne mit einem breiten Spektrum und allgemeinen Fragen, und gehe
+                                        dann in das Spezifische über.</p>
+                                </li>
+                                <li>
+                                    <p>Das Gespräch darf auch über das vorher begrenzte Thema hinausgehen. Das
+                                        bringt wertvolle Informationen und neue Ansichten.</p>
+                                </li>
+                                <li>
+                                    <p>Sei offen und neugierig, was dein Gegenüber zu berichten hat.</p>
+                                </li>
+                                </li>
+                                <br>
+                                <p style="color: rgb(16, 83, 207);">Angaben zur Person, die interviewt wird:</p><br>
+                                <li>
+                                    <p> Altersgruppe</p>
+                                </li>
+                                <li>
+                                    <p> Beruf/Studienfach</p>
+                                </li>
+                                <li>
+                                    <p>Erfahrung mit BigBlueButton o.ä. Dienste</p>
+                                </li>
+                            </ul>
+                            </p><br>
+                            <br>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="bgimage">
+        </div>
+    </div>
+</body>
+
+</html>
